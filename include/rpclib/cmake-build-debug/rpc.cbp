@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="rpc"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\include\;CMake Files\include\rpc\;CMake Files\doc\;CMake Files\doc\pages\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rpc">
+				<Option output="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/librpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add option="-DRPCLIB_ASIO=clmdep_asio"/>
+					<Add option="-DRPCLIB_FMT=clmdep_fmt"/>
+					<Add option="-DRPCLIB_WIN32"/>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="F:/learning/iit/cs550/blockchain_system/rpclib/include"/>
+					<Add directory="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpc"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rpc/fast">
+				<Option output="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/librpc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DASIO_STANDALONE"/>
+					<Add option="-DRPCLIB_ASIO=clmdep_asio"/>
+					<Add option="-DRPCLIB_FMT=clmdep_fmt"/>
+					<Add option="-DRPCLIB_WIN32"/>
+					<Add option="-DRPCLIB_MSGPACK=clmdep_msgpack"/>
+					<Add directory="F:/learning/iit/cs550/blockchain_system/rpclib/include"/>
+					<Add directory="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rpc/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;F:/learning/iit/cs550/blockchain_system/rpclib/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include/format.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include/gmock/gmock.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include/gtest/gtest.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/include/posix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/src/format.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/dependencies/src/posix.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/client.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/compatibility.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/config.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/all.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/any.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/async_writer.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/bool.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/call.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/client_error.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/constant.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/dev_utils.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/func_tools.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/func_traits.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/if.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/invoke.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/is_specialization_of.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/log.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/make_unique.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/not.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/pimpl.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/response.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/server_session.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/thread_group.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/detail/util.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/dispatcher.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/fbuffer.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/gcc_atomic.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/object.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/pack.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/pack_define.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/pack_template.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/alpha.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/arm.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/blackfin.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/convex.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/ia64.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/m68k.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/mips.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/parisc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/ppc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/pyramid.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/rs6k.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/sparc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/superh.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/sys370.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/sys390.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/x86.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/x86/32.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/x86/64.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/architecture/z.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/borland.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/clang.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/comeau.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/compaq.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/diab.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/digitalmars.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/dignus.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/edg.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/ekopath.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/gcc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/gcc_xml.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/greenhills.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/hp_acc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/iar.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/ibm.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/intel.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/kai.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/llvm.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/metaware.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/metrowerks.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/microtec.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/mpw.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/palm.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/pgi.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/sgi_mipspro.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/sunpro.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/tendra.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/visualc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/compiler/watcom.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/_cassert.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/_exception.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/comp_detected.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/endian_compat.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/os_detected.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/platform_detected.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/test.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/detail/test_def.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/arm.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/arm/versions.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/ppc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/ppc/versions.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/x86.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/x86/versions.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/x86_amd.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/hardware/simd/x86_amd/versions.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/language.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/language/objc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/language/stdc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/language/stdcpp.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c/_prefix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c/gnu.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c/uc.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c/vms.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/c/zos.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/_prefix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/cxx.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/dinkumware.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/libcomo.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/modena.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/msl.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/roguewave.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/sgi.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/stdcpp3.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/stlport.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/library/std/vacpp.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/make.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/aix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/amigaos.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/android.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/beos.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd/bsdi.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd/dragonfly.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd/free.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd/net.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/bsd/open.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/cygwin.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/haiku.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/hpux.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/ios.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/irix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/linux.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/macos.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/os400.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/qnxnto.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/solaris.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/unix.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/vms.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/os/windows.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/other.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/other/endian.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform/mingw.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform/windows_desktop.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform/windows_phone.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform/windows_runtime.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/platform/windows_store.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/version.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/predef/version_number.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/sbuffer.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/sysdep.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/unpack.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/unpack_define.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/unpack_template.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/util.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/version.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/version_master.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/vrefbuffer.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/zbuffer.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/msgpack/zone.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/rpc_error.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/server.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/this_handler.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/this_server.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/this_session.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/version.h">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/client.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/detail/client_error.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/detail/response.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/detail/server_session.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/dispatcher.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/nonstd/optional.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/rpc_error.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/server.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/this_handler.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/this_server.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/lib/rpc/this_session.cc">
+			<Option target="rpc"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/rpclib.pc.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/cmake/check_warning_flag.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/cmake/coverage.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/cmake/msvc_support.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/cmake/policies.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/cmake/rpclibConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/config.h.in">
+			<Option virtualFolder="CMake Files\include\rpc\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/include/rpc/version.h.in">
+			<Option virtualFolder="CMake Files\include\rpc\"/>
+		</Unit>
+		<Unit filename="F:/learning/iit/cs550/blockchain_system/rpclib/doc/pages/versions.md.in">
+			<Option virtualFolder="CMake Files\doc\pages\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
